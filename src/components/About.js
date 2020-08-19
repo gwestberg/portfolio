@@ -18,7 +18,7 @@ export default class About extends Component {
                             A tad late in the game, wanted to be a kitchen-magician first.
                             The interest has been there since i got my first computer in -95 and I wondered what made it tick.
                             The gaming interest never left me though and i have spent far to many hours trying to perfect railways in various city-building games,
-                            aswell as trying to coordinate a people in more than one raid in a couple of MMO's.
+                            aswell as trying to coordinate people in more than one raid in a couple of MMO's.
                         </p>
                         <p>
                             The jump from food to code is not as far as one might think,
