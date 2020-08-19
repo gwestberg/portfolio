@@ -1,20 +1,23 @@
 [
     {
         "id":1,
-        "name": "My Portfolio",
+        "name": "Portfolio",
         "date":"19 aug 2020",
-        "description": "This is the first viable project I've done so far. The first one that I will be using after I've done with my studies.",
+        "description": "This is my first live project.",
         "link": "https://gwestberg.github.io/portfolio/",
+        "image":"portfolio/static/media/projectportfolio.08b31db9.JPG",
         "tags":["react ","json ","javascript ","css ","html ","bootstrap "]
     },
     {
         "id":2,
-        "name": "Project Two",
-        "date":"19 aug 2020",
-        "description": "Another text here",
-        "link": "https://gwestberg.github.io/portfolio/",
+        "name": "Hej Morsan",
+        "date":"02 dec 2019",
+        "description": "A group assignment: Create a mockup for an app to keep in touch with your family",
+        "link": "https://github.com/gwestberg/Assignment-Hej-Morsan",
+        "image":"./assets/projectimg/hej-morsan.JPG",
         "tags":["react ","json ","javascript ","css ","html ","bootstrap "]
     }
+
 
 
 ]

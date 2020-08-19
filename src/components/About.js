@@ -29,14 +29,14 @@ export default class About extends Component {
                             to be a part of the magic, another side of it but still the same.<br/> *insert "it's a kind of magic" by Queen*
                         </p>
                     </div>
-                    <hr class="d-sm-none" />
+                    <hr className="d-sm-none" />
                 </div>
                 <section className="row justify-content-around">
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <div class="h-100">
-                                <div class="card-body">
-                                    <h3 class="card-title">Frontend</h3>
+                    <div className="row">
+                        <div className="col-lg-4 col-sm-6 mb-4">
+                            <div className="h-100">
+                                <div className="card-body">
+                                    <h3 className="card-title">Frontend</h3>
                                     <ul className="skill-cards">
                                         <li>CSS</li>
                                         <li>HTML</li>
@@ -50,11 +50,11 @@ export default class About extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <div class="h-100">
-                                <div class="card-body">
-                                    <h3 class="card-title">Middleend</h3>
-                                    <p class="card-text boxText">Because sometimes you need a middleground, a place where all your awesome skills collide. 
+                        <div className="col-lg-4 col-sm-6 mb-4">
+                            <div className="h-100">
+                                <div className="card-body">
+                                    <h3 className="card-title">Middleend</h3>
+                                    <p className="card-text boxText">Because sometimes you need a middleground, a place where all your awesome skills collide. 
                                     Where the oil and the eggs turn into glorious mayonaise ... </p>
                                     <p>This is not it tho ... this is just a random textbox. ;)</p>
                                     {/* <ul className="skill-cards">
@@ -66,10 +66,10 @@ export default class About extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <div class="h-100">
-                                <div class="card-body">
-                                    <h3 class="card-title">Backend</h3>
+                        <div className="col-lg-4 col-sm-6 mb-4">
+                            <div className="h-100">
+                                <div className="card-body">
+                                    <h3 className="card-title">Backend</h3>
 
                                     <ul className="skill-cards">
                                         <li>C#</li>
