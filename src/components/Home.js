@@ -13,7 +13,7 @@ export default class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            
+
         }
     }
     render() {
@@ -23,7 +23,7 @@ export default class Home extends Component {
                 <div className="sticky-top headnav">
                     <nav className="navbar navbar-expand-sm navbar-dark" >
                         <a className="navbar-brand" href="#">Home</a>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="collapsibleNavbar">
@@ -65,7 +65,7 @@ export default class Home extends Component {
                     <div className="column">
                         {/* ABOUT */}
                         <section >
-                        <About></About>
+                            <About></About>
                         </section>
                         {/* ------------ */}
 
@@ -79,7 +79,7 @@ export default class Home extends Component {
                             </div>
                         </section>
                         {/* ------------ */}
-                        
+
                         {/* BLOG */}
                         <section>
                             <div className="col-sm-10" id="Blog">
