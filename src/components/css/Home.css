@@ -4,7 +4,9 @@ body {
   /* NAVBAR */
 .headnav{
     background: #14181ba8;
-
+}
+h3{
+  color: rgb(255, 255, 255);
 }
    /* --------- */
 
@@ -19,7 +21,7 @@ body {
       align-items: center;
       justify-content: space-evenly;
       padding-top: 2em;
-      color: #fff;
+      color: rgb(255, 255, 255);
   }
   /* --------- */
   
