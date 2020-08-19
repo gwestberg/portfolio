@@ -52,22 +52,10 @@ export default class About extends Component {
                         <div class="col-lg-4 col-sm-6 mb-4">
                             <div class="h-100">
                                 <div class="card-body">
-                                    <h3 class="card-title">Backend</h3>
-
-                                    <ul className="skill-cards">
-                                        <li>C#</li>
-                                        <li>SQL</li>
-                                        <li>ASP.NET</li>
-                                        <li>Bootstrap</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <div class="h-100">
-                                <div class="card-body">
-                                    <h3 class="card-title">more info coming...</h3>
-                                    <p class="card-text boxText"></p>
+                                    <h3 class="card-title">Middleend</h3>
+                                    <p class="card-text boxText">Because sometimes you need a middleground, a place where all your awesome skills collide. 
+                                    Where the oil and the eggs turn into glorious mayonaise ... </p>
+                                    <p>This is not it tho ... this is just a random textbox. ;)</p>
                                     {/* <ul className="skill-cards">
                                         <li>C#</li>
                                         <li>SQL</li>
@@ -77,6 +65,22 @@ export default class About extends Component {
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <div class="h-100">
+                                <div class="card-body">
+                                    <h3 class="card-title">Backend</h3>
+
+                                    <ul className="skill-cards">
+                                        <li>C#</li>
+                                        <li>SQL</li>
+                                        <li>ASP.NET</li>
+                                        <li>MongoDB</li>
+                                        <li>Entity FrameWork</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </section>
             </div>
