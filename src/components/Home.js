@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import './css/Home.css'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -12,16 +12,45 @@ import About from '../components/About';
 export default class Home extends Component {
     constructor(props) {
         super(props);
+        this.toggleNavbar = this.toggleNavbar.bind(this);
         this.state = {
-
-        }
+            collapsed: true,
+        };
     }
+    toggleNavbar() {
+        this.setState({
+            collapsed: !this.state.collapsed,
+        });
+
+    }
+
     render() {
+        const collapsed = this.state.collapsed;
+        const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+        const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         return (
             <div className="Wrapper">
                 {/* NAVBAR */}
                 <div className="sticky-top headnav">
-                    <nav className="navbar navbar-expand-sm navbar-dark" >
+                    <nav className="navbar navbar-expand-sm navbar-dark bg-dark transparent-nav">
+                        <div className="container">
+                            <a className="navbar-brand" href="/portfolio">Home</a>
+                            <button onClick={this.toggleNavbar} className={`${classTwo}`} type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon" />
+                            </button>
+                            <div className={`${classOne}`} id="navbarResponsive">
+                                <ul className="navbar-nav ">
+                                    <li className="nav-item active">
+                                        <a className="nav-link" href="#Projects">Projects</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#Blog">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    {/* <nav className="navbar navbar-expand-sm navbar-dark" >
                         <a className="navbar-brand" href="#">Home</a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -36,7 +65,7 @@ export default class Home extends Component {
                                 </li>
                             </ul>
                         </div>
-                    </nav>
+                    </nav> */}
                 </div>
                 {/* ------------ */}
 
