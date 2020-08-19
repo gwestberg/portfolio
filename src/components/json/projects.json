@@ -5,7 +5,7 @@
         "date":"19 aug 2020",
         "description": "This is my first live project.",
         "link": "https://gwestberg.github.io/portfolio/",
-        "image":"portfolio/static/media/projectportfolio.08b31db9.JPG",
+        "image":"./assets/projectimg/projectportfolio.JPG",
         "tags":["react ","json ","javascript ","css ","html ","bootstrap "]
     },
     {
