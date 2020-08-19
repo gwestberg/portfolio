@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, #5d4157, #a8caba);
+  }
+  /* NAVBAR */
+.headnav{
+    background: #14181ba8;
+
+}
+   /* --------- */
+
+  /* HEADER */
+  #Header {
+    background: linear-gradient(to right, #5d4157, #a8caba);
+    height: 20em;
+  }
+  #headerContent{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 2em;
+      color: #fff;
+  }
+  /* --------- */
+  
+
+
+.content{
+  color: #fff;
+    border-radius: 2%;
+    background: #14181b6c;
+    margin-bottom:3em;
+}
+section{
+    padding:3em;
+}
+
+  /* LINKS */
+  .nav-link{
+      color: rgba(0, 0, 0, 0.61);
+  }
+  .nav-link:hover, .nav-link:focus,
+  .site-link:hover, .site-link:focus {
+    color: rgb(216, 216, 216);
+    cursor: pointer;
+  }
+  /* --------- */
