@@ -8,13 +8,9 @@
 
 }
 #profileHeader{
-
     padding:1em 0em 0.5em 2.5em;
-    /* margin-bottom: 2%; */
 }
- /* #profileImage{
-   padding: 0em;
- } */
+
  #profileImage img{
    vertical-align: middle;
    width: 17em;
@@ -22,9 +18,10 @@
    border-radius: 50%;
    border: 6px solid rgba(255, 255, 255, 0.11);
  }
- /* #profileText{
-   padding: 0;
- } */
+ .skill-cards{
+  list-style-type: none;
+ }
+
 
 
 

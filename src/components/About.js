@@ -14,17 +14,20 @@ export default class About extends Component {
                     <div id="profileText" className=" col-md-6 text-center">
                         <h5>Hi, my name is Gabriella!</h5>
                         <p>I'm a software developer student @<a className="link" href="https://www.boras.se/utbildningochforskola/borasyrkeshogskola/utbildningar/systemutvecklarenet.4.3fde8c191684442015123edf.html" target="_blank" rel="noopener noreferrer">YHBORÅS</a></p>
-                        <p>A tad late in the game, wanted to be a kitchen-magician first.
-                        The interest has been there since i got my first computer in -95 and I wondered what made it tick.
-                        The gaming interest never left me though and i have spent far to many hours trying to perfect railways in various city-building games,
-                        aswell as trying to coordinate a people in various raids in a couple of MMO's.
-                    </p>
+                        <p>
+                            A tad late in the game, wanted to be a kitchen-magician first.
+                            The interest has been there since i got my first computer in -95 and I wondered what made it tick.
+                            The gaming interest never left me though and i have spent far to many hours trying to perfect railways in various city-building games,
+                            aswell as trying to coordinate a people in various raids in a couple of MMO's.
+                        </p>
                         <p>
                             The jump from food to code is not as far as one might think,
                             we still follow recipies and experiment with ingredients and flavours to present a product that satisfies our customers.
-                    </p>
-                        <p>The magic that happens in the kitchen also happens when building applications and is the reason why I chose this path,
-                    to be a part of the magic, another side of it but still the same magic.</p>
+                        </p>
+                        <p>
+                            The magic that happens in the kitchen also happens when building applications and is the reason why I chose this path,
+                            to be a part of the magic, another side of it but still the same magic.
+                        </p>
                     </div>
                     <hr class="d-sm-none" />
                 </div>
@@ -32,9 +35,9 @@ export default class About extends Component {
                     <div class="row">
                         <div class="col-lg-4 col-sm-6 mb-4">
                             <div class="h-100">
-                                <div class="card-body skillSets">
+                                <div class="card-body">
                                     <h3 class="card-title">Frontend</h3>
-                                    <ul>
+                                    <ul className="skill-cards">
                                         <li>CSS</li>
                                         <li>HTML</li>
                                         <li>Vanilla JS</li>
@@ -48,11 +51,10 @@ export default class About extends Component {
                         </div>
                         <div class="col-lg-4 col-sm-6 mb-4">
                             <div class="h-100">
-                                <div class="card-body skillSets">
-                                    <h4 class="card-title">
+                                <div class="card-body">
                                     <h3 class="card-title">Backend</h3>
-                                    </h4>
-                                    <ul>
+
+                                    <ul className="skill-cards">
                                         <li>C#</li>
                                         <li>SQL</li>
                                         <li>ASP.NET</li>
@@ -63,11 +65,15 @@ export default class About extends Component {
                         </div>
                         <div class="col-lg-4 col-sm-6 mb-4">
                             <div class="h-100">
-                                <div class="card-body skillSets">
-                                    <h4 class="card-title">
-                                    <h3 class="card-title">And more Info</h3>
-                                    </h4>
-                                    <p class="card-text boxText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+                                <div class="card-body">
+                                    <h3 class="card-title">more info coming...</h3>
+                                    <p class="card-text boxText"></p>
+                                    {/* <ul className="skill-cards">
+                                        <li>C#</li>
+                                        <li>SQL</li>
+                                        <li>ASP.NET</li>
+                                        <li>Bootstrap</li>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>

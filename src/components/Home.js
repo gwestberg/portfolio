@@ -40,7 +40,10 @@ export default class Home extends Component {
                             </button>
                             <div className={`${classOne}`} id="navbarResponsive">
                                 <ul className="navbar-nav ">
-                                    <li className="nav-item active">
+                                <li className="nav-item">
+                                        <a className="nav-link" href="#About">Skills</a>
+                                    </li>
+                                    <li className="nav-item">
                                         <a className="nav-link" href="#Projects">Projects</a>
                                     </li>
                                     <li className="nav-item">
