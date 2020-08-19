@@ -1,17 +1,19 @@
 [
     {
         "id":1,
-        "name": "Project One",
-        "description": "Some text here",
+        "name": "My Portfolio",
+        "date":"19 aug 2020",
+        "description": "This is the first viable project I've done so far. The first one that I will be using after I've done with my studies.",
         "link": "https://gwestberg.github.io/portfolio/",
-        "image": "an-image-file"
+        "tags":["react ","json ","javascript ","css ","html ","bootstrap "]
     },
     {
         "id":2,
         "name": "Project Two",
+        "date":"19 aug 2020",
         "description": "Another text here",
         "link": "https://gwestberg.github.io/portfolio/",
-        "image": "an-image-file"
+        "tags":["react ","json ","javascript ","css ","html ","bootstrap "]
     }
 
 
