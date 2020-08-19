@@ -12,8 +12,12 @@ export default class Projects extends Component {
                             <div className=" h-100">
                                 <a href="https://gwestberg.github.io/portfolio/"><img class="card-img-top" src={Portfolioproj} alt="project thumbnail"/></a>
                                 <div className="card-body">
-                                <h3 className="card-title">Project one</h3>
-                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                                <h3 className="card-title">My Portfolio - 19 aug 2020</h3>
+                                    <p className="card-text">
+                                        This is the first "real" project I've done so far. 
+                                        The first one that I will be using after I've done with my studies. 
+                                        It's basic but it felt damn good when I was able to deploy it.
+                                    </p>
                                 </div>
                             </div>
                         </div>
