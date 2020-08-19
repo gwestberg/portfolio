@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "name": "Project One",
+        "description": "Some text here",
+        "link": "https://gwestberg.github.io/portfolio/",
+        "image": "an-image-file"
+    },
+    {
+        "id":2,
+        "name": "Project Two",
+        "description": "Another text here",
+        "link": "https://gwestberg.github.io/portfolio/",
+        "image": "an-image-file"
+    }
+
+
+]

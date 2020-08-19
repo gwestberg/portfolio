@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "date":"19082020",
+        "title":"A blogpost title",
+        "text":"The contents of the blogpost",
+        "tags":["an","array","of","tags"]
+    },
+    {
+        "id":2,
+        "date":"19082020",
+        "title":"A blogpost title yet again",
+        "text":"The contents of the blogpost",
+        "tags":["an","array","of","tags"]
+    }
+]

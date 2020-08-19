@@ -8,10 +8,10 @@ export default class About extends Component {
         return (
             <div className="column">
                 <div className="row row-wrap justify-content-evenly" id="About">
-                    <div className="col-md-4" id="profileImage">
+                    <div className="col-lg-4 mb-8" id="profileImage">
                         <img src={profilePic} alt="Profile"></img>
                     </div>
-                    <div id="profileText" className=" col-md-6 text-center">
+                    <div id="profileText" className=" col-lg-6 mb-2 text-center">
                         <h5>Hi, my name is Gabriella!</h5>
                         <p>I'm a software developer student @<a className="link" href="https://www.boras.se/utbildningochforskola/borasyrkeshogskola/utbildningar/systemutvecklarenet.4.3fde8c191684442015123edf.html" target="_blank" rel="noopener noreferrer">YHBORÅS</a></p>
                         <p>
@@ -26,7 +26,7 @@ export default class About extends Component {
                         </p>
                         <p>
                             The magic that happens in the kitchen also happens when building applications and is the reason why I chose this path,
-                            to be a part of the magic, another side of it but still the same magic.
+                            to be a part of the magic, another side of it but still the same.<br/> *insert "it's a kind of magic" by Queen*
                         </p>
                     </div>
                     <hr class="d-sm-none" />
@@ -40,6 +40,7 @@ export default class About extends Component {
                                     <ul className="skill-cards">
                                         <li>CSS</li>
                                         <li>HTML</li>
+                                        <li>JSON</li>
                                         <li>Vanilla JS</li>
                                         <li>Bootstrap</li>
                                         <li>React</li>
