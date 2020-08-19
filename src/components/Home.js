@@ -22,7 +22,7 @@ export default class Home extends Component {
                 {/* NAVBAR */}
                 <div className="sticky-top headnav">
                     <nav className="navbar navbar-expand-sm navbar-dark" >
-                        <a className="navbar-brand" href="/portfolio">Home</a>
+                        <a className="navbar-brand" href="#">Home</a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                             <span className="navbar-toggler-icon"></span>
                         </button>
