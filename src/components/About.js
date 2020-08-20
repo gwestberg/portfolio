@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Collapsible from 'react-collapsible';
 import './css/About.css'
 import profilePic from '../assets/realprofilepic.jpg'
 
@@ -51,10 +52,16 @@ export default class About extends Component {
                         <div className="col-lg-8 col-sm-6 mb-8">
                             <div className="h-100">
                                 <div className="card-body">
-                                    <h3 className="card-title">box of randomness</h3>
+                                    <Collapsible triggerStyle={{cursor:"pointer", padding:1+"%"+0+"%"+0+"%"+0+"%"}} trigger={<h3 className="card-title collapse-title">Worklife Experiences</h3>}>
                                     <p className="card-text boxText">I have no idea what I want in this box... Do you have any idea? 
                                     I might want to be a somewhat long text or something like it so that it fills the whole avaliable box-space... otherwise the techskill-box moves and 
                                     I'm not in the right-headspace to deal with that right now...</p>
+                                    </Collapsible>
+                                    <Collapsible triggerStyle={{cursor:"pointer", padding:1+"%"+0+"%"+0+"%"+1+"%"}} trigger={<h3 className="card-title collapse-title">Education</h3>}>
+                                    <p className="card-text boxText">I have no idea what I want in this box... Do you have any idea? 
+                                    I might want to be a somewhat long text or something like it so that it fills the whole avaliable box-space... otherwise the techskill-box moves and 
+                                    I'm not in the right-headspace to deal with that right now...</p>
+                                    </Collapsible>
                                 </div>
                             </div>
                         </div>
