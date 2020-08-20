@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import Projects from '../components/Projects';
-import Blog from '../components/Blog';
+// import Blog from '../components/Blog';
 import About from '../components/About';
 // import Contact from '../components/Contact';
 
@@ -59,8 +59,8 @@ export default class Home extends Component {
                 {/* HEADER */}
                 <section id="Header">
                     <div id="headerContent">
-                        <h1>Code-magician in training</h1>
-                        <p>this is my book of spells</p>
+                        <h1>Hi, my name is Gabriella!</h1>
+                        <p>I'm a software developer student @<a className="link" href="https://www.boras.se/utbildningochforskola/borasyrkeshogskola/utbildningar/systemutvecklarenet.4.3fde8c191684442015123edf.html" target="_blank" rel="noopener noreferrer">YHBORÅS</a></p>
                         <ul className="nav nav-pills flex-row">
                             <li className="nav-item">
                                 <a className="nav-link" href="https://github.com/gwestberg" target="_blank" rel="noopener noreferrer"><FaGithub size={50} /></a>
@@ -89,7 +89,7 @@ export default class Home extends Component {
                         <section>
                             <div className="col-sm-10" id="Projects">
                                 <h2>Project Gallery</h2>
-                                <p>These are the projects I have worked on </p>
+                                <p>These are some of the projects I have worked on </p>
                                 <Projects></Projects>
                                 <br />
                             </div>
@@ -97,13 +97,13 @@ export default class Home extends Component {
                         {/* ------------ */}
 
                         {/* BLOG */}
-                        <section>
+                        {/* <section>
                             <div className="col-sm-10" id="Blog">
                                 <h2>Blog</h2>
                                 <Blog></Blog>
                                 <br />
                             </div>
-                        </section>
+                        </section> */}
                         {/* ------------ */}
                     </div>
                 </div>

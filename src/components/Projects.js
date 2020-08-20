@@ -18,11 +18,11 @@ export default class Projects extends Component {
                         Object.keys(Projectfiles).map(key => (
                             <div className="col-lg-4 col-sm-6 mb-4" key={key}>
                                 <div className=" h-100">
+                                    <h4 className="card-title">{Projectfiles[key].projectTitle}</h4>
                                     <a href={Projectfiles[key].link}>
                                     <img className="card-img-top" src= {require("../assets/"+Projectfiles[key].image)} alt="project thumbnail" />
                                     </a>
                                     <div className="card-body" >
-                                        <h4 className="card-title">{Projectfiles[key].projectTitle}</h4>
                                         <h6>- {Projectfiles[key].date}</h6>
                                         <p className="card-text">{Projectfiles[key].description}</p>
                                     </div>

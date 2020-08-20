@@ -4,8 +4,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 
+}
+.about-title{
+  padding: 1em;
 }
 #profileHeader{
     padding:1em 0em 0.5em 2.5em;
@@ -18,6 +21,12 @@
    border-radius: 50%;
    border: 6px solid rgba(255, 255, 255, 0.11);
  }
+
+#profileText{
+  display: inline-block;
+  vertical-align: middle;
+}
+
  .skill-cards{
   list-style-type: none;
  }

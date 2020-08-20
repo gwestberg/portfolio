@@ -26,15 +26,14 @@ h3{
   /* --------- */
   
 
-
+/* CONTENT */
 .content{
   color: #fff;
-    border-radius: 2%;
-    background: #14181b6c;
+    background: #14181b2a;
     margin-bottom:3em;
 }
 section{
-    padding:3em;
+    padding:3em 3em 3em 3em;
 }
 
   /* LINKS */
