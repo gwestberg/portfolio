@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b12e10f0031da2b7b88743d4694b15b9",
+    "revision": "3dca1ba119818c96007cd16c6f679436",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.c11abba4.chunk.css"
   },
   {
-    "revision": "9afc06aa182cae10f56e",
+    "revision": "42effd77c490d59924d1",
     "url": "/portfolio/static/css/main.acfea492.chunk.css"
   },
   {
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.c13a0e4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9afc06aa182cae10f56e",
-    "url": "/portfolio/static/js/main.a980553e.chunk.js"
+    "revision": "42effd77c490d59924d1",
+    "url": "/portfolio/static/js/main.8b992d9b.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
+  },
+  {
+    "revision": "8e51bd99800e1ffa31b8808d376fd050",
+    "url": "/portfolio/static/media/NuTrello.8e51bd99.JPG"
   },
   {
     "revision": "9a6186f05300e010caeae035fbd1a761",
