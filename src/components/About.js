@@ -55,7 +55,7 @@ export default class About extends Component {
                                 <div className="card-body">
                                     <h3 className="card-title">Middleend</h3>
                                     <p className="card-text boxText">Because sometimes you need a middleground, a place where all your awesome skills collide. 
-                                    Where the oil and the eggs turn into glorious mayonaise ... </p>
+                                    Where the oil and the eggs turn into glorious mayonnaise ... </p>
                                     <p>This is not it tho ... this is just a random textbox. ;)</p>
                                     {/* <ul className="skill-cards">
                                         <li>C#</li>

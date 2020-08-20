@@ -13,7 +13,7 @@ export default class Projects extends Component {
         return (
             <div>
                 <div className="container">
-                    <div className="row row-wrap">
+                    <div className="row d-flex row-wrap">
                     {
                         Object.keys(Projectfiles).map(key => (
                             <div className="col-lg-4 col-sm-6 mb-4" key={key}>
@@ -22,7 +22,7 @@ export default class Projects extends Component {
                                     <img className="card-img-top" src= {require("../assets/"+Projectfiles[key].image)} alt="project thumbnail" />
                                     </a>
                                     <div className="card-body" >
-                                        <h4 className="card-title">{Projectfiles[key].name}</h4>
+                                        <h4 className="card-title">{Projectfiles[key].projectTitle}</h4>
                                         <h6>- {Projectfiles[key].date}</h6>
                                         <p className="card-text">{Projectfiles[key].description}</p>
                                     </div>

@@ -1,19 +1,28 @@
 [
     {
         "id":1,
-        "name": "Portfolio",
-        "date":"19 aug 2020",
-        "description": "This is my first live project.",
-        "link": "https://gwestberg.github.io/portfolio/",
-        "image":"projectportfolio.JPG"  
+        "projectTitle": "NuTrello",
+        "date":"17 jun 2020",
+        "description": "Group Assignment: The most important project ever made, a mockup of our own version of Trello. The best of them all!",
+        "link": "https://github.com/gwestberg/kanban-meta-g2",
+        "image":"NuTrello.JPG"  
     },
     {
         "id":2,
-        "name": "Hej Morsan",
+        "projectTitle": "Hej Morsan",
         "date":"02 dec 2019",
-        "description": "A group assignment: Create a mockup for an app to keep in touch with your family",
+        "description": "Group Assignment: Create a mockup for an app to keep in touch with your family",
         "link": "https://github.com/gwestberg/Assignment-Hej-Morsan",
         "image":"hej-morsan.JPG"
+        
+    },
+    {
+        "id":3,
+        "projectTitle": "Portfolio",
+        "date":"19 aug 2020",
+        "description": "This is my first live project. A challenge in itself because I built it with React.",
+        "link": "https://github.com/gwestberg/portfolio",
+        "image":"projectportfolio.JPG"  
         
     }
 
