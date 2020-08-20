@@ -1,16 +1,16 @@
 [
     {
         "id":1,
-        "date":"19082020",
+        "date":"19 aug 2020",
         "title":"A blogpost title",
         "text":"The contents of the blogpost",
-        "tags":["an","array","of","tags"]
+        "tags":["react ","json ","javascript ","css ","html ","bootstrap "]
     },
     {
         "id":2,
-        "date":"19082020",
+        "date":"20 aug 2020",
         "title":"A blogpost title yet again",
         "text":"The contents of the blogpost",
-        "tags":["an","array","of","tags"]
+        "tags":["react ","json ","javascript ","css ","html ","bootstrap "]
     }
 ]

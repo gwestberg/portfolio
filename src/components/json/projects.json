@@ -5,8 +5,7 @@
         "date":"19 aug 2020",
         "description": "This is my first live project.",
         "link": "https://gwestberg.github.io/portfolio/",
-        "image":"./assets/projectimg/projectportfolio.JPG",
-        "tags":["react ","json ","javascript ","css ","html ","bootstrap "]
+        "image":"projectportfolio.JPG"  
     },
     {
         "id":2,
@@ -14,8 +13,8 @@
         "date":"02 dec 2019",
         "description": "A group assignment: Create a mockup for an app to keep in touch with your family",
         "link": "https://github.com/gwestberg/Assignment-Hej-Morsan",
-        "image":"./assets/projectimg/hej-morsan.JPG",
-        "tags":["react ","json ","javascript ","css ","html ","bootstrap "]
+        "image":"hej-morsan.JPG"
+        
     }
 
 
