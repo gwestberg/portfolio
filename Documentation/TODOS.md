@@ -2,12 +2,10 @@
 
 Mobile:
 - IMPORTANT! element alignment on mobile screens!!
-- Alignments, especially on profileimage!!
+- Alignments!!!!, especially on profileimage!!
 
 Home:
-- Link color in header
-- FIXED! Fix some fancy animation for the header
-- FIXED! Larger spacing between components?
+- Replace container class in content-div
 
 Projects:
 - Create a page for adding projects (modal?)
@@ -24,3 +22,13 @@ Ideas:
 - Carousel with projects?
 - DONE! Placement of components?
 - DONE! Placement of icons?
+
+
+
+
+DOING:
+
+DONE:
+- FIXED!Link color in header
+- FIXED! Fix some fancy animation for the header
+- FIXED! Larger spacing between components?
