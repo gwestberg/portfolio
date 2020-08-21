@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import Fade from 'react-reveal/Fade';
+import { Link, animateScroll as scroll } from "react-scroll";
 import './css/Home.css'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -47,10 +48,14 @@ export default class Home extends Component {
                             <div className={`${classOne}`} id="navbarResponsive">
                                 <ul className="navbar-nav ">
                                 <li className="nav-item">
-                                        <a className="nav-link" href="#About">About</a>
+                                <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+                                        <a className="nav-link">About</a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#Projects">Projects</a>
+                                    <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>
+                                        <a className="nav-link">Projects</a>
+                                        </Link>
                                     </li>
                                     {/* <li className="nav-item">
                                         <a className="nav-link" href="#Blog">Blog</a>
@@ -88,21 +93,16 @@ export default class Home extends Component {
                 <div className="container content">
                     <div className="column">
                         {/* ABOUT */}
-                        <section >
+                        <section id="about">
                             <About></About>
                         </section>
                         {/* ------------ */}
 
                         {/* PROJECTS */}
-                        <section>
-                        <Fade left cascade>
-                            <div className="col-sm-10" id="Projects">
-                                <h2>Project Gallery</h2>
-                                <p>These are some of the projects I have worked on </p>
+                        <section id="projects">
+                            
                                 <Projects></Projects>
                                 <br />
-                            </div>
-                        </Fade>
                         </section>
                         {/* ------------ */}
 
@@ -121,6 +121,7 @@ export default class Home extends Component {
 
                 {/* FOOTER */}
                 <footer className="page-footer font-small ">
+                <h3 className="footer-title">Contact me:</h3>
                 <ul className="nav nav-pills flex-row justify-content-center">
                             <li className="nav-item">
                                 <a className="nav-link" href="https://github.com/gwestberg" target="_blank" rel="noopener noreferrer"><FaGithub size={40} /></a>

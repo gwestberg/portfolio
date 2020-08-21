@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    padding-top: 10em;
 }
 .about-title{
   padding: 0 1em 0.5em 1em;
@@ -16,7 +17,6 @@
   margin-left: 0%;
 }
  #profileImage img{
-   /* vertical-align: middle; */
    width: 25em;
    height: 25em;
    border-radius: 50%;
@@ -63,7 +63,10 @@
  }
  /* --------- */
 
-
+/* FOOTER */
+.footer-title{
+  text-align: center;
+}
 
 
 /* --------- */

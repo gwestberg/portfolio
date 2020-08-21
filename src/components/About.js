@@ -8,14 +8,14 @@ import profilePic from '../assets/realprofilepic.jpg'
 export default class About extends Component {
     render() {
         return (
-            <Fade left cascade>
             <div className="column">
+            <Fade left cascade>
                 <div className="row row-wrap justify-content-evenly" id="About">
                     <div className="col-lg-5 mb-8 sm-4" id="profileImage">
                         <img src={profilePic} alt="Profile"></img>
                     </div>
                     <div id="profileText" className=" col-lg-6 mb-2">
-                <h2 className="text-center about-title">About Me</h2>
+                <h1 className="text-center about-title">About Me</h1>
                         <p>
                             A tad late in the game, wanted to be a Chef first.
                             The interest began when I got my first computer at 10 years old and I meddled with basic HTML and CSS when the blog-era began,
@@ -72,8 +72,8 @@ export default class About extends Component {
                     </section>
                     <hr className="d-sm-none" />
                 </div>
-            </div>
             </Fade>
+            </div>
         )
     }
 }

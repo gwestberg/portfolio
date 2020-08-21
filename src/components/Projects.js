@@ -14,7 +14,9 @@ export default class Projects extends Component {
     render() {
         return (
             <Fade left cascade>
-            <div>
+            <div className="col-sm-10" id="Projects">
+            <h1>Project Gallery</h1>
+                <p>These are some of the projects I have worked on </p>
                 <div className="container">
                     <div className="row d-flex row-wrap">
                     {
