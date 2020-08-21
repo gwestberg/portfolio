@@ -48,3 +48,15 @@ section{
     cursor: pointer;
   }
   /* --------- */
+
+  /* FOOTER */
+.footer-title{
+  text-align: center;
+}
+.footer-link{
+  color: rgb(87, 87, 87);
+}
+.footer-text-small{
+  text-align: center;
+}
+/* --------- */
