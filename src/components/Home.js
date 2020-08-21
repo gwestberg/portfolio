@@ -117,19 +117,21 @@ export default class Home extends Component {
                 {/* ------------ */}
 
                 {/* CONTENT */}
-                <div className="container content">
-                    <div className="column">
+                <div className="container content ">
+                    <div className="column sm-4">
                         {/* ABOUT */}
                         <section id="about">
                             <About></About>
                         </section>
+                        <br/>
                         {/* ------------ */}
 
                         {/* PROJECTS */}
                         <section id="projects">
-
+                            <div className="column sm-4">
                             <Projects></Projects>
                             <br />
+                            </div>
                         </section>
                         {/* ------------ */}
 
