@@ -5,6 +5,7 @@ Mobile:
 - Alignments, especially on profileimage!!
 
 Home:
+- Link color in header
 - FIXED! Fix some fancy animation for the header
 - FIXED! Larger spacing between components?
 

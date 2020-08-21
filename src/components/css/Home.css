@@ -46,6 +46,8 @@ section{
   .nav-link{
       color: rgba(0, 0, 0, 0.61);
   }
+  .header-link:hover, .header-link:focus,
+  .footer-link:hover, .footer-link:focus,
   .nav-link:hover, .nav-link:focus,
   .site-link:hover, .site-link:focus {
     color: rgb(216, 216, 216);
@@ -60,6 +62,7 @@ section{
 .footer-title{
   text-align: center;
 }
+.header-link,
 .footer-link{
   color: rgb(87, 87, 87);
 }
