@@ -1,13 +1,14 @@
 
 
-!!:
-- IMPORTANT! element alignment on mobile screens
+Mobile:
+- IMPORTANT! element alignment on mobile screens!!
+- Alignments, especially on profileimage!!
 
 Home:
-- Fix some fancy animation for the header
-- Larger spacing between components?
-- Placement of components?
-- Placement of icons?
+- FIXED! Fix some fancy animation for the header
+- FIXED! Larger spacing between components?
+- DONE! Placement of components?
+- DONE! Placement of icons?
 
 Projects:
 - Create a page for adding projects (modal?)
