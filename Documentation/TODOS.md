@@ -1,5 +1,8 @@
 
 
+!!:
+- IMPORTANT! element alignment on mobile screens
+
 Home:
 - Fix some fancy animation for the header
 - Larger spacing between components?
