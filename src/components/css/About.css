@@ -4,20 +4,18 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* margin-bottom: 5%; */
-
 }
 .about-title{
-  padding: 1em;
+  padding: 0 1em 0.5em 1em;
 }
 #profileHeader{
-    padding:1em 0em 0.5em 2.5em;
+    padding: 1em 0em 0.5em 2.5em;
 }
 
  #profileImage img{
    vertical-align: middle;
-   width: 17em;
-   height: 17em;
+   width: 25em;
+   height: 25em;
    border-radius: 50%;
    border: 6px solid rgba(255, 255, 255, 0.11);
  }
@@ -28,9 +26,23 @@
 }
 
  .skill-cards{
+  
   list-style-type: none;
  }
 
+ /* TECHLIST */
+ .tech-list{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center;
+   align-items: center; */
+   margin: 1% 1% 1% 5%;
+
+ }
+ .list-header{
+  margin: 1% 1% 1% 21%;
+
+ }
  ul.horizontal,
  ul.horizontal li {
      margin: 0;
@@ -46,6 +58,7 @@
      margin: 0 1em 1em 0;
      text-align: center;
  }
+ /* --------- */
 
 
 

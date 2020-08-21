@@ -8,13 +8,12 @@ export default class About extends Component {
     render() {
         return (
             <div className="column">
-                <h2 className="text-center about-title">About Me</h2>
                 <div className="row row-wrap justify-content-evenly" id="About">
-                    <div className="col-lg-4 mb-8" id="profileImage">
+                    <div className="col-lg-5 mb-8" id="profileImage">
                         <img src={profilePic} alt="Profile"></img>
                     </div>
                     <div id="profileText" className=" col-lg-6 mb-2">
-
+                <h2 className="text-center about-title">About Me</h2>
                         <p>
                             A tad late in the game, wanted to be a Chef first.
                             The interest began when I got my first computer at 10 years old and I meddled with basic HTML and CSS when the blog-era began,
@@ -28,10 +27,9 @@ export default class About extends Component {
                             And that is what I am after, that same creative energy that drives you to create awesome content for people.
                         </p>
                     </div>
-                    <section>
-                        <div>
-                            <h3>Techskills</h3>
-                            <ul class="horizontal">
+                    <div className="tech-list">
+                            <h4 className="list-header">Techskills</h4>
+                            <ul className="horizontal">
                                 <li>C#</li>
                                 <li>SQL</li>
                                 <li>ASP.NET</li>
@@ -42,6 +40,20 @@ export default class About extends Component {
                                 <li>Node</li>
                             </ul>
                         </div>
+                    <section>
+                        {/* <div>
+                            <h3 className="list-header">Techskills</h3>
+                            <ul class="horizontal">
+                                <li>C#</li>
+                                <li>SQL</li>
+                                <li>ASP.NET</li>
+                                <li>Entity FrameWork</li>
+                                <li>Javascript</li>
+                                <li>React</li>
+                                <li>Express</li>
+                                <li>Node</li>
+                            </ul>
+                        </div> */}
                                         
                     {/* <div className="row">
                     <div className="col-lg-6 col-sm-6 mb-8">
