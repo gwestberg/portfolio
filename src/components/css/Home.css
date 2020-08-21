@@ -1,9 +1,11 @@
 body {
-    background: linear-gradient(to right, #5d4157, #a8caba);
+  background: linear-gradient(to left, #a6ddc1, #326d6d);
+  color: rgb(255, 255, 255);
+
   }
   /* NAVBAR */
 .headnav{
-    background: #14181ba8;
+    background: #14181b69;
 }
 h3{
   color: rgb(255, 255, 255);
@@ -12,7 +14,6 @@ h3{
 
   /* HEADER */
   #Header {
-    background: linear-gradient(to right, #5d4157, #a8caba);
     height: 20em;
   }
   #headerContent{
@@ -28,8 +29,6 @@ h3{
 
 /* CONTENT */
 .content{
-  color: #fff;
-    background: #14181b2a;
     margin-bottom:3em;
 }
 section{

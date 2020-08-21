@@ -6,8 +6,6 @@ import { AiOutlineMail } from "react-icons/ai";
 import Projects from '../components/Projects';
 // import Blog from '../components/Blog';
 import About from '../components/About';
-// import Contact from '../components/Contact';
-
 
 export default class Home extends Component {
     constructor(props) {
@@ -32,10 +30,17 @@ export default class Home extends Component {
             <div className="Wrapper">
                 {/* NAVBAR */}
                 <div className="sticky-top headnav">
-                    <nav className="navbar navbar-expand-sm navbar-dark bg-dark transparent-nav">
+                    <nav className="navbar navbar-expand-sm navbar-dark transparent-nav">
                         <div className="container">
                             <a className="navbar-brand" href="/portfolio">Home</a>
-                            <button onClick={this.toggleNavbar} className={`${classTwo}`} type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            <button onClick={this.toggleNavbar} 
+                                    className={`${classTwo}`} type="button" 
+                                    data-toggle="collapse" 
+                                    data-target="#navbarResponsive" 
+                                    aria-controls="navbarResponsive" 
+                                    aria-expanded="false" 
+                                    aria-label="Toggle navigation"
+                                >
                                 <span className="navbar-toggler-icon" />
                             </button>
                             <div className={`${classOne}`} id="navbarResponsive">
@@ -46,9 +51,9 @@ export default class Home extends Component {
                                     <li className="nav-item">
                                         <a className="nav-link" href="#Projects">Projects</a>
                                     </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <a className="nav-link" href="#Blog">Blog</a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -110,8 +115,18 @@ export default class Home extends Component {
                 {/* ------------ */}
 
                 {/* FOOTER */}
-                <footer className="page-footer font-small bg-dark ">
-
+                <footer className="page-footer font-small ">
+                <ul className="nav nav-pills flex-row justify-content-center">
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://github.com/gwestberg" target="_blank" rel="noopener noreferrer"><FaGithub size={40} /></a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="https://www.linkedin.com/in/gabriella-w-54975ba7/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={40} /></a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="mailto:g.westberg@hotmail.se" target="_blank" rel="noopener noreferrer"><AiOutlineMail size={40} /></a>
+                            </li>
+                        </ul>
                     {/* <!-- Copyright --> */}
                     <div className="footer-copyright text-center text-light py-3">© 2020 Copyright:
                         <a href="http://localhost:3000/#"> Pistorella</a>

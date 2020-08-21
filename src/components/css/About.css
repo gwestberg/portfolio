@@ -31,6 +31,21 @@
   list-style-type: none;
  }
 
+ ul.horizontal,
+ ul.horizontal li {
+     margin: 0;
+     padding: 0;
+ }
+ ul.horizontal {
+     list-style-type: none;
+     overflow: auto;
+     margin: 0 auto;
+ }
+ ul.horizontal li {
+     float: left;
+     margin: 0 1em 1em 0;
+     text-align: center;
+ }
 
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Collapsible from 'react-collapsible';
+// import Collapsible from 'react-collapsible';
 import './css/About.css'
 import profilePic from '../assets/realprofilepic.jpg'
 
@@ -8,7 +8,7 @@ export default class About extends Component {
     render() {
         return (
             <div className="column">
-                        <h2 className="text-center about-title">About Me</h2>
+                <h2 className="text-center about-title">About Me</h2>
                 <div className="row row-wrap justify-content-evenly" id="About">
                     <div className="col-lg-4 mb-8" id="profileImage">
                         <img src={profilePic} alt="Profile"></img>
@@ -28,45 +28,36 @@ export default class About extends Component {
                             And that is what I am after, that same creative energy that drives you to create awesome content for people.
                         </p>
                     </div>
+                    <section>
+                        <div>
+                            <h3>Techskills</h3>
+                            <ul class="horizontal">
+                                <li>C#</li>
+                                <li>SQL</li>
+                                <li>ASP.NET</li>
+                                <li>Entity FrameWork</li>
+                                <li>Javascript</li>
+                                <li>React</li>
+                                <li>Express</li>
+                                <li>Node</li>
+                            </ul>
+                        </div>
+                                        
+                    {/* <div className="row">
+                    <div className="col-lg-6 col-sm-6 mb-8">
+                            <Collapsible triggerStyle={{ cursor: "pointer", padding: 1 + "%" + 0 + "%" + 0 + "%" + 0 + "%" }} trigger={<h3 className="card-title collapse-title">Experiences</h3>}>
+                                <p className="card-text boxText">Some of my experiences...</p>
+                            </Collapsible>
+                        </div>
+                        <div className="col-lg-6 col-sm-6 mb-8">
+                            <Collapsible triggerStyle={{ cursor: "pointer", padding: 1 + "%" + 0 + "%" + 0 + "%" + 0 + "%" }} trigger={<h3 className="card-title collapse-title">Education</h3>}>
+                                <p className="card-text boxText">Relevant education...</p>
+                            </Collapsible>
+                        </div>
+                    </div> */}
+                    </section>
                     <hr className="d-sm-none" />
                 </div>
-                <section className="row justify-content-around">
-                    <div className="row">
-                        <div className="col-lg-4 col-sm-6 mb-4">
-                            <div className="h-100">
-                                <div className="card-body">
-                                    <h3 className="card-title">Techskills</h3>
-                                    <ul className="skill-cards">
-                                        <li>C#</li>
-                                        <li>SQL</li>
-                                        <li>ASP.NET</li>
-                                        <li>Entity FrameWork</li>
-                                        <li>Javascript</li>
-                                        <li>React</li>
-                                        <li>Express</li>
-                                        <li>Node</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-8 col-sm-6 mb-8">
-                            <div className="h-100">
-                                <div className="card-body">
-                                    <Collapsible triggerStyle={{cursor:"pointer", padding:1+"%"+0+"%"+0+"%"+0+"%"}} trigger={<h3 className="card-title collapse-title">Worklife Experiences</h3>}>
-                                    <p className="card-text boxText">I have no idea what I want in this box... Do you have any idea? 
-                                    I might want to be a somewhat long text or something like it so that it fills the whole avaliable box-space... otherwise the techskill-box moves and 
-                                    I'm not in the right-headspace to deal with that right now...</p>
-                                    </Collapsible>
-                                    <Collapsible triggerStyle={{cursor:"pointer", padding:1+"%"+0+"%"+0+"%"+1+"%"}} trigger={<h3 className="card-title collapse-title">Education</h3>}>
-                                    <p className="card-text boxText">I have no idea what I want in this box... Do you have any idea? 
-                                    I might want to be a somewhat long text or something like it so that it fills the whole avaliable box-space... otherwise the techskill-box moves and 
-                                    I'm not in the right-headspace to deal with that right now...</p>
-                                    </Collapsible>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
         )
     }
