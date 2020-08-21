@@ -8,6 +8,7 @@ Home:
 
 Projects:
 - Create a page for adding projects (modal?)
+- Style Source Code button!!!
 
 About:
 - Add some form of resumé (modal?)
