@@ -3,6 +3,10 @@ body {
   color: rgb(255, 255, 255);
 
   }
+  .Wrapper{
+    display: flex;
+    flex-direction: column;
+  }
   /* NAVBAR */
 .headnav{
     background: #14181b69;
@@ -50,6 +54,9 @@ section{
   /* --------- */
 
   /* FOOTER */
+  footer{
+    margin-top: 5em;
+  }
 .footer-title{
   text-align: center;
 }
