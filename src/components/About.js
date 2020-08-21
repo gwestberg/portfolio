@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 // import Collapsible from 'react-collapsible';
 import './css/About.css'
 import profilePic from '../assets/realprofilepic.jpg'
@@ -7,9 +8,10 @@ import profilePic from '../assets/realprofilepic.jpg'
 export default class About extends Component {
     render() {
         return (
+            <Fade left cascade>
             <div className="column">
                 <div className="row row-wrap justify-content-evenly" id="About">
-                    <div className="col-lg-5 mb-8" id="profileImage">
+                    <div className="col-lg-5 mb-8 sm-4" id="profileImage">
                         <img src={profilePic} alt="Profile"></img>
                     </div>
                     <div id="profileText" className=" col-lg-6 mb-2">
@@ -17,7 +19,7 @@ export default class About extends Component {
                         <p>
                             A tad late in the game, wanted to be a Chef first.
                             The interest began when I got my first computer at 10 years old and I meddled with basic HTML and CSS when the blog-era began,
-                            I even managed to earn a few bucks designing a couple of blogs but my love for cooking won the first battle.
+                            I even managed to earn a few bucks designing a couple of blogs but my love for cooking won the first battle. 
                         </p>
                         <p>
                             The jump from food to code is not as far as one might think,
@@ -71,6 +73,7 @@ export default class About extends Component {
                     <hr className="d-sm-none" />
                 </div>
             </div>
+            </Fade>
         )
     }
 }

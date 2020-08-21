@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Collapsible from 'react-collapsible';
-
+import Fade from 'react-reveal/Fade';
 import './css/Projects.css';
 import Projectfiles from './json/projects.json';
 
@@ -13,6 +13,7 @@ export default class Projects extends Component {
     }
     render() {
         return (
+            <Fade left cascade>
             <div>
                 <div className="container">
                     <div className="row d-flex row-wrap">
@@ -39,6 +40,7 @@ export default class Projects extends Component {
                     </div>
                 </div>
             </div>
+            </Fade>
         )
     }
 }

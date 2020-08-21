@@ -1,4 +1,5 @@
 import React, { Component} from 'react';
+import Fade from 'react-reveal/Fade';
 import './css/Home.css'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -46,7 +47,7 @@ export default class Home extends Component {
                             <div className={`${classOne}`} id="navbarResponsive">
                                 <ul className="navbar-nav ">
                                 <li className="nav-item">
-                                        <a className="nav-link" href="#About">Skills</a>
+                                        <a className="nav-link" href="#About">About</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#Projects">Projects</a>
@@ -63,6 +64,7 @@ export default class Home extends Component {
 
                 {/* HEADER */}
                 <section id="Header">
+                    <Fade left cascade>
                     <div id="headerContent">
                         <h1>Hi, my name is Gabriella!</h1>
                         <p>I'm a software developer student @<a className="link" href="https://www.boras.se/utbildningochforskola/borasyrkeshogskola/utbildningar/systemutvecklarenet.4.3fde8c191684442015123edf.html" target="_blank" rel="noopener noreferrer">YHBORÅS</a></p>
@@ -78,6 +80,7 @@ export default class Home extends Component {
                             </li>
                         </ul>
                     </div>
+                        </Fade>
                 </section>
                 {/* ------------ */}
 
@@ -92,12 +95,14 @@ export default class Home extends Component {
 
                         {/* PROJECTS */}
                         <section>
+                        <Fade left cascade>
                             <div className="col-sm-10" id="Projects">
                                 <h2>Project Gallery</h2>
                                 <p>These are some of the projects I have worked on </p>
                                 <Projects></Projects>
                                 <br />
                             </div>
+                        </Fade>
                         </section>
                         {/* ------------ */}
 

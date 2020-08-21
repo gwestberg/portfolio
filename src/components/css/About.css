@@ -9,11 +9,14 @@
   padding: 0 1em 0.5em 1em;
 }
 #profileHeader{
-    padding: 1em 0em 0.5em 2.5em;
+    padding: 1em 0m 0.5em 2.5em;
 }
 
+#profileImage{
+  margin-left: 0%;
+}
  #profileImage img{
-   vertical-align: middle;
+   /* vertical-align: middle; */
    width: 25em;
    height: 25em;
    border-radius: 50%;
