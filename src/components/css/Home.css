@@ -24,6 +24,12 @@ h3{
       padding-top: 20em;
       color: rgb(255, 255, 255);
   }
+  #headerContent h1{
+    font-size: 5em;
+  }
+  #headerContent p{
+    font-size: 1.2em;
+  }
   /* --------- */
   
 

@@ -66,7 +66,7 @@ export default class Home extends Component {
                 <section id="Header">
                     <Fade left cascade>
                     <div id="headerContent">
-                        <h1>Hi, my name is Gabriella!</h1>
+                        <h1 className="header-title">Hi, my name is Gabriella!</h1>
                         <p>I'm a software developer student @<a className="link" href="https://www.boras.se/utbildningochforskola/borasyrkeshogskola/utbildningar/systemutvecklarenet.4.3fde8c191684442015123edf.html" target="_blank" rel="noopener noreferrer">YHBORÅS</a></p>
                         <ul className="nav nav-pills flex-row">
                             <li className="nav-item">
