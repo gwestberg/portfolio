@@ -26,7 +26,6 @@ export default class Projects extends Component {
                                     >
                                     <div className="card-body" >
                                     <h4 className="card-title">{Projectfiles[key].projectTitle}</h4>
-                                        <h6>- {Projectfiles[key].date}</h6>
                                         <p className="card-text">{Projectfiles[key].description}</p>
                                         <a target="_blank" rel="noopener noreferrer" href={Projectfiles[key].link}>
                                         <button>Source Code</button>
