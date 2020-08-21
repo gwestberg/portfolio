@@ -7,8 +7,6 @@ Mobile:
 Home:
 - FIXED! Fix some fancy animation for the header
 - FIXED! Larger spacing between components?
-- DONE! Placement of components?
-- DONE! Placement of icons?
 
 Projects:
 - Create a page for adding projects (modal?)
@@ -20,3 +18,8 @@ About:
 Blog:
 - Create a blogpage
 - create a page for adding posts (modal?)
+
+Ideas:
+- Carousel with projects?
+- DONE! Placement of components?
+- DONE! Placement of icons?
