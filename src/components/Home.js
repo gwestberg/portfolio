@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Link} from "react-scroll";
+import { Link } from "react-scroll";
 import './css/Home.css'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -120,33 +120,33 @@ export default class Home extends Component {
 
                 {/* CONTENT */}
                 <div className="container content">
-                    <div className="column sm-4">
-                        {/* ABOUT */}
-                        <section id="about">
+                    {/* ABOUT */}
+                    <section id="about">
+                        <div className="column sm-4">
                             <About></About>
-                        </section>
-                        <br/>
-                        {/* ------------ */}
+                        </div>
+                    </section>
+                    <br />
+                    {/* ------------ */}
 
-                        {/* PROJECTS */}
-                        <section id="projects">
-                            <div className="column sm-4">
+                    {/* PROJECTS */}
+                    <section id="projects">
+                        <div className="column sm-4">
                             <Projects></Projects>
                             <br />
-                            </div>
-                        </section>
-                        {/* ------------ */}
+                        </div>
+                    </section>
+                    {/* ------------ */}
 
-                        {/* BLOG */}
-                        {/* <section>
+                    {/* BLOG */}
+                    {/* <section>
                             <div className="col-sm-10" id="Blog">
                                 <h2>Blog</h2>
                                 <Blog></Blog>
                                 <br />
                             </div>
                         </section> */}
-                        {/* ------------ */}
-                    </div>
+                    {/* ------------ */}
                 </div>
                 {/* ------------ */}
 
@@ -183,7 +183,7 @@ export default class Home extends Component {
                     <div className="footer-copyright text-center text-light py-3">
                         © 2020 Copyright:
                         <a className="footer-link" href="/portfolio"> Pistorella</a>
-                    <p className="footer-text-small">Built with <a className="footer-link" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">react.js</a> </p>
+                        <p className="footer-text-small">Built with <a className="footer-link" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">react.js</a> </p>
                     </div>
                     {/* <!-- Copyright --> */}
                 </footer>
