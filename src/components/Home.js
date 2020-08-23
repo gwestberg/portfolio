@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 import './css/Home.css'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -49,24 +49,26 @@ export default class Home extends Component {
                                 <ul className="navbar-nav ">
                                     <li className="nav-item">
                                         <Link
+                                            className="nav-link"
                                             activeClass="active"
                                             to="about"
                                             spy={true}
                                             smooth={true}
                                             offset={-70}
                                             duration={500}>
-                                            <a className="nav-link">About</a>
+                                            About
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link
+                                            className="nav-link"
                                             activeClass="active"
                                             to="projects"
                                             spy={true}
                                             smooth={true}
                                             offset={-70}
                                             duration={500}>
-                                            <a className="nav-link">Projects</a>
+                                            Projects
                                         </Link>
                                     </li>
                                     {/* <li className="nav-item">
@@ -117,7 +119,7 @@ export default class Home extends Component {
                 {/* ------------ */}
 
                 {/* CONTENT */}
-                <div className="container content ">
+                <div className="container content">
                     <div className="column sm-4">
                         {/* ABOUT */}
                         <section id="about">

@@ -10,12 +10,12 @@ export default class About extends Component {
         return (
             <div className="column">
             <Fade left cascade>
-                <div className="row row-wrap justify-content-evenly" id="About">
+                <div className="row row-wrap" id="About">
                     <div className="col-lg-5 mb-8 sm-4" id="profileImage">
-                        <img src={profilePic} alt="Profile"></img>
+                        <img className="" src={profilePic} alt="Profile"></img>
                     </div>
-                    <div id="profileText" className=" col-lg-6 mb-2">
-                <h1 className="text-center about-title">About Me</h1>
+                    <div id="profileText" className=" col-lg-6 col-mb-2 col-sm-4">
+                        <h1 className="text-center about-title">About Me</h1>
                         <p>
                             A tad late in the game, wanted to be a Chef first.
                             The interest began when I got my first computer at 10 years old and I meddled with basic HTML and CSS when the blog-era began,

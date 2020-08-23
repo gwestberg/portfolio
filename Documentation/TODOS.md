@@ -1,10 +1,10 @@
 
 
 Mobile:
-- IMPORTANT! element alignment on mobile screens!!
-- Alignments!!!!, especially on profileimage!!
+- IMPORTANT! element alignment on mobile screens!! (profile-pic crooked, about overflows into projects)
 
 Home:
+- Find a replacement for react-reveal (pack is out-of-date)
 - Replace container class in content-div
 
 Projects:
@@ -20,8 +20,8 @@ Blog:
 
 Ideas:
 - Carousel with projects?
-- DONE! Placement of components?
-- DONE! Placement of icons?
+- DONE! Placement of components?(style the spacing between each component)
+- DONE! Placement of icons (geader, footer)?
 
 
 
