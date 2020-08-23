@@ -11,9 +11,6 @@ body {
 .headnav{
     background: #14181b69;
 }
-h3{
-  color: rgb(255, 255, 255);
-}
    /* --------- */
 
   #headerContent{
@@ -22,6 +19,7 @@ h3{
       align-items: center;
       justify-content: space-evenly;
       padding-top: 20em;
+      padding-left: 1em;
       color: rgb(255, 255, 255);
   }
   #headerContent h1{
@@ -38,8 +36,10 @@ h3{
     margin-bottom:3em;
 }
 section{
+  display: flex;
+  flex-direction: column;
     height: 60em;
-    padding: 3em 3em 3em 3em;
+    /* padding:1em; */
 }
 
   /* LINKS */
