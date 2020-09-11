@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
+import {Fade} from 'react-awesome-reveal';
 // import Collapsible from 'react-collapsible';
 import './css/About.css'
 import profilePic from '../assets/realprofilepic.jpg'
@@ -9,7 +9,7 @@ export default class About extends Component {
     render() {
         return (
             <div className="column">
-                <Fade left cascade>
+                <Fade direction="left" duration="2000" triggerOnce="true" cascade>
                     <div className="row row-wrap" id="About">
                         <div className="col-lg-5 mb-4 sm-4" id="profileImage">
                             <img className="" src={profilePic} alt="Profile"></img>
@@ -67,22 +67,6 @@ export default class About extends Component {
                         </div> */}
                         <hr className="d-sm-none" />
                     </div>
-                    {/* <section>
-                                        
-                    <div className="row">
-                    <div className="col-lg-6 col-sm-6 mb-8">
-                            <Collapsible triggerStyle={{ cursor: "pointer", padding: 1 + "%" +  + "%" + 0 + "%" + 0 + "%" }} trigger={<h3 className="card-title collapse-title ">Experiences</h3>}>
-                                <p className="card-text boxText">Some of my experiences...</p>
-                            </Collapsible>
-                        </div>
-                        <div className="col-lg-6 col-sm-6 mb-8">
-                            <Collapsible triggerStyle={{ cursor: "pointer", padding: 1 + "%" + 0 + "%" + 0 + "%" + 0 + "%" }} trigger={<h3 className="card-title collapse-title">Education</h3>}>
-                                <p className="card-text boxText">Relevant education...</p>
-                            </Collapsible>
-                        </div>
-                    </div>
-                    </section> */}
-
                 </Fade>
             </div>
         )

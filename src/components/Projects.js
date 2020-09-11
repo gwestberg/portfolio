@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Collapsible from 'react-collapsible';
-import Fade from 'react-reveal/Fade';
+import {Fade} from 'react-awesome-reveal';
 import './css/Projects.css';
 import Projectfiles from './json/projects.json';
 
@@ -13,7 +13,7 @@ export default class Projects extends Component {
     }
     render() {
         return (
-            <Fade left cascade>
+            <Fade direction ="left" duration="2000" triggerOnce="true" cascade>
             <div className="col-sm-10" id="Projects">
             <h1>Project Gallery</h1>
                 <p>These are some of the projects I have worked on </p>

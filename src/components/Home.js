@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
+import {Fade} from 'react-awesome-reveal';
 import { Link } from "react-scroll";
 import './css/Home.css'
 import { FaLinkedin } from "react-icons/fa";
@@ -83,7 +83,7 @@ export default class Home extends Component {
 
                 {/* HEADER */}
                 <div className="header">
-                    <Fade left cascade>
+                    <Fade direction ="left" duration="2000" triggerOnce="true" cascade>
                         <div id="headerContent">
                             <h1 className="header-title">Hi, my name is Gabriella!</h1>
                             <p>I'm a software developer student @<a className="header-link" href="https://www.boras.se/utbildningochforskola/borasyrkeshogskola/utbildningar/systemutvecklarenet.4.3fde8c191684442015123edf.html" target="_blank" rel="noopener noreferrer">YHBORÅS</a></p>

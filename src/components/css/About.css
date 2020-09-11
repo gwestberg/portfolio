@@ -4,8 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; 
-    margin-top: 7em;
-    /* padding-top: 10em; */ /*Don't fucking do this, it fucks up everything!!*/
+    padding-top: 10em;
 }
 .about-title{
   padding: 0 1em 0.5em 1em;
