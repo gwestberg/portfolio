@@ -82,7 +82,7 @@ export default class Home extends Component {
                 {/* ------------ */}
 
                 {/* HEADER */}
-                <section id="Header">
+                <div className="header">
                     <Fade left cascade>
                         <div id="headerContent">
                             <h1 className="header-title">Hi, my name is Gabriella!</h1>
@@ -115,27 +115,23 @@ export default class Home extends Component {
                             </ul>
                         </div>
                     </Fade>
-                </section>
+                </div>
                 {/* ------------ */}
 
                 {/* CONTENT */}
                 <div className="container content">
                     {/* ABOUT */}
-                    <section id="about">
-                        <div className="column sm-4">
+                        <div className="about column sm-4">
                             <About></About>
                         </div>
-                    </section>
                     <br />
                     {/* ------------ */}
 
                     {/* PROJECTS */}
-                    <section id="projects">
-                        <div className="column sm-4">
+                        <div className="projects column sm-4">
                             <Projects></Projects>
                             <br />
                         </div>
-                    </section>
                     {/* ------------ */}
 
                     {/* BLOG */}
@@ -152,7 +148,7 @@ export default class Home extends Component {
 
                 {/* FOOTER */}
                 <footer className="page-footer font-small ">
-                    <h3 className="footer-title">Contact me:</h3>
+                    <h3 className="footer-title">Find Me Here:</h3>
                     <ul className="nav nav-pills flex-row justify-content-center">
                         <li className="nav-item">
                             <a className="nav-link"

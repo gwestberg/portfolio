@@ -18,7 +18,7 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      padding-top: 20em;
+      padding-top: 23%;
       padding-left: 1em;
       color: rgb(255, 255, 255);
   }
@@ -36,11 +36,8 @@ body {
     margin-bottom:3em;
 }
 
-section{
-  display: flex;
-  flex-direction: column;
-    height: 60em;
-    /* padding:1em; */
+.about, .header {
+    margin-bottom: 20%;
 }
 
   /* LINKS */

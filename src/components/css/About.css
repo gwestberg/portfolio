@@ -55,6 +55,12 @@
      margin: 0 1em 1em 0;
      text-align: center;
  }
+ .small-text{
+   font-size: 0.75em;
+ }
+ .collapsible-content{
+   margin: 1% 1% 1% 5%;
+ }
  /* --------- */
 
 

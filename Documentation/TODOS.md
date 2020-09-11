@@ -21,7 +21,7 @@ Blog:
 Ideas:
 - Carousel with projects?
 - DONE! Placement of components?(style the spacing between each component)
-- DONE! Placement of icons (geader, footer)?
+- DONE! Placement of icons (header, footer)?
 
 
 
@@ -32,3 +32,11 @@ DONE:
 - FIXED!Link color in header
 - FIXED! Fix some fancy animation for the header
 - FIXED! Larger spacing between components?
+
+
+
+$ git add .
+$ git commit -m "Create a React app and publish it to GitHub Pages"
+$ git push origin master
+
+$ npm run deploy
