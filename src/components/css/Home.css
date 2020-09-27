@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to top, #a6ddc1, #326d6df5);
+  background: linear-gradient(to top, #68b896c2, #326d6df5);
   color: rgb(255, 255, 255);
 
   }
@@ -18,7 +18,7 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      padding-top: 23%;
+      padding-top: 20%;
       padding-left: 1em;
       color: rgb(255, 255, 255);
   }

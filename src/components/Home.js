@@ -84,11 +84,11 @@ export default class Home extends Component {
                 {/* HEADER */}
                 <div className="header">
                     <div id="headerContent">
-                        <Fade direction="left" duration="2000" triggerOnce="true" cascade>
+                        <Fade direction="left" duration="1800" triggerOnce="true" cascade>
                             <h1 className="header-title">Hi, my name is Gabriella!</h1>
                             <p>I'm a software developer student @<a className="header-link" href="https://www.boras.se/utbildningochforskola/borasyrkeshogskola/utbildningar/systemutvecklarenet.4.3fde8c191684442015123edf.html" target="_blank" rel="noopener noreferrer">YHBORÅS</a></p>
                         </Fade>
-                        <Fade delay="255">
+                        <Fade delay="240" triggerOnce="true">
                             <div>
                                 <ul className="nav nav-pills flex-row">
                                     <li className="nav-item">
