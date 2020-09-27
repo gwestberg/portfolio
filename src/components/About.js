@@ -9,7 +9,7 @@ export default class About extends Component {
     render() {
         return (
             <div className="column">
-                <Fade direction="left" duration="2000" triggerOnce="true" cascade>
+                <Fade direction="left" duration="2800" triggerOnce="true" cascade>
                     <div className="row row-wrap" id="About">
                         <div className="col-lg-5 mb-4 sm-4" id="profileImage">
                             <img className="" src={profilePic} alt="Profile"></img>

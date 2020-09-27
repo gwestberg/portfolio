@@ -13,10 +13,12 @@ export default class Projects extends Component {
     }
     render() {
         return (
-            <Fade direction ="left" duration="2000" triggerOnce="true" cascade>
             <div className="col-sm-10" id="Projects">
+            <Fade direction ="left" duration="2200" triggerOnce="true" cascade>
             <h1>Project Gallery</h1>
                 <p>These are some of the projects I have worked on </p>
+                </Fade>
+                <Fade delay = "290">
                 <div className="container">
                     <div className="row d-flex row-wrap">
                     {
@@ -41,8 +43,9 @@ export default class Projects extends Component {
                     }
                     </div>
                 </div>
+                    </Fade>
+            
             </div>
-            </Fade>
         )
     }
 }

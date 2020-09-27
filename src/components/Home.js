@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Fade} from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 import { Link } from "react-scroll";
 import './css/Home.css'
 import { FaLinkedin } from "react-icons/fa";
@@ -83,55 +83,59 @@ export default class Home extends Component {
 
                 {/* HEADER */}
                 <div className="header">
-                    <Fade direction ="left" duration="2000" triggerOnce="true" cascade>
-                        <div id="headerContent">
+                    <div id="headerContent">
+                        <Fade direction="left" duration="2000" triggerOnce="true" cascade>
                             <h1 className="header-title">Hi, my name is Gabriella!</h1>
                             <p>I'm a software developer student @<a className="header-link" href="https://www.boras.se/utbildningochforskola/borasyrkeshogskola/utbildningar/systemutvecklarenet.4.3fde8c191684442015123edf.html" target="_blank" rel="noopener noreferrer">YHBORÅS</a></p>
-                            <ul className="nav nav-pills flex-row">
-                                <li className="nav-item">
-                                    <a className="nav-link"
-                                        href="https://github.com/gwestberg"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        <FaGithub size={50} />
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link"
-                                        href="https://www.linkedin.com/in/gabriella-w-54975ba7/"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        <FaLinkedin size={50} />
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link"
-                                        href="mailto:g.westberg@hotmail.se"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        <AiOutlineMail size={50} />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </Fade>
+                        </Fade>
+                        <Fade delay="255">
+                            <div>
+                                <ul className="nav nav-pills flex-row">
+                                    <li className="nav-item">
+                                        <a className="nav-link"
+                                            href="https://github.com/gwestberg"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            <FaGithub size={50} />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link"
+                                            href="https://www.linkedin.com/in/gabriella-w-54975ba7/"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            <FaLinkedin size={50} />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link"
+                                            href="mailto:g.westberg@hotmail.se"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            <AiOutlineMail size={50} />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </Fade>
+                    </div>
                 </div>
                 {/* ------------ */}
 
                 {/* CONTENT */}
                 <div className="container content">
                     {/* ABOUT */}
-                        <div className="about column sm-4">
-                            <About></About>
-                        </div>
+                    <div className="about column sm-4">
+                        <About></About>
+                    </div>
                     <br />
                     {/* ------------ */}
 
                     {/* PROJECTS */}
-                        <div className="projects column sm-4">
-                            <Projects></Projects>
-                            <br />
-                        </div>
+                    <div className="projects column sm-4">
+                        <Projects></Projects>
+                        <br />
+                    </div>
                     {/* ------------ */}
 
                     {/* BLOG */}
