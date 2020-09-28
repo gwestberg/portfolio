@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2a30a973.chunk.css",
+    "main.css": "/portfolio/static/css/main.991e8ae7.chunk.css",
     "main.js": "/portfolio/static/js/main.d6886050.chunk.js",
     "main.js.map": "/portfolio/static/js/main.d6886050.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
@@ -9,10 +9,10 @@
     "static/js/2.a07426bd.chunk.js": "/portfolio/static/js/2.a07426bd.chunk.js",
     "static/js/2.a07426bd.chunk.js.map": "/portfolio/static/js/2.a07426bd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.708ac43935a1c759b242222e4a5c87b4.js": "/portfolio/precache-manifest.708ac43935a1c759b242222e4a5c87b4.js",
+    "precache-manifest.173dc20d09df14f1eaa98d3058069ad1.js": "/portfolio/precache-manifest.173dc20d09df14f1eaa98d3058069ad1.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.c11abba4.chunk.css.map": "/portfolio/static/css/2.c11abba4.chunk.css.map",
-    "static/css/main.2a30a973.chunk.css.map": "/portfolio/static/css/main.2a30a973.chunk.css.map",
+    "static/css/main.991e8ae7.chunk.css.map": "/portfolio/static/css/main.991e8ae7.chunk.css.map",
     "static/js/2.a07426bd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a07426bd.chunk.js.LICENSE.txt",
     "static/media/NuTrello.JPG": "/portfolio/static/media/NuTrello.c5be2ab4.JPG",
     "static/media/hej-morsan.JPG": "/portfolio/static/media/hej-morsan.9a6186f0.JPG",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.c11abba4.chunk.css",
     "static/js/2.a07426bd.chunk.js",
-    "static/css/main.2a30a973.chunk.css",
+    "static/css/main.991e8ae7.chunk.css",
     "static/js/main.d6886050.chunk.js"
   ]
 }
