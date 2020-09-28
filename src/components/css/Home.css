@@ -19,6 +19,7 @@ body {
       align-items: center;
       justify-content: space-evenly;
       padding-top: 20%;
+      padding-bottom: 17%;
       padding-left: 1em;
       color: rgb(255, 255, 255);
   }
@@ -33,11 +34,11 @@ body {
 
 /* CONTENT */
 .content{
-    margin-bottom:3em;
+    margin-bottom: 5em;
 }
 
-.about, .header {
-    margin-bottom: 20%;
+.about{
+    margin-bottom: 22%;
 }
 
   /* LINKS */
