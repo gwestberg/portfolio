@@ -28,6 +28,7 @@ export default class About extends Component {
                             <p>
                                 And that is what I am after, that same creative energy that drives you to create awesome content for people, whether it's a new webservice or a website ;) .
                             </p>
+                            {/* Make this dynamic */}
                             <div className="row">
                                 <div class="dropdown">
                                     <button class="dropbtn">C#</button>
@@ -109,43 +110,7 @@ export default class About extends Component {
                             </div>
                         </div>
                     </div>
-
-                            {/* <h4 className="list-header">Skills</h4> */}
-                            {/* <ul className="horizontal" >
-                                <li title="Beginner/Intermediate">C#</li>
-                                <li title="Beginner/Intermediate">MSSQL</li>
-                                <li title="Beginner/Intermediate">ASP.Net</li>
-                                <li title="Beginner">Entity Framework</li>
-                                <li title="Beginner/Intermediate">VanillaJS</li>
-                                <li title="Beginner/Intermediate">React</li>
-                                <li title="Beginner">Express</li>
-                                <li title="Beginner/Intermediate">Node</li>
-                                <li title="Beginner">xUnit</li>
-                                <li title="Just Started Learning">Angular</li>
-                                <li title="On my TODO-list">( MongoDB <span>*</span> )</li>
-                            </ul> */}
-                            {/* <p className="small-text">hover over the skill to see my current status</p> */}
-                        
-                        {/* <div className="row">
-                            <div className="col-lg-6 col-sm-6 mb-8">
-                                <Collapsible triggerStyle={{ cursor: "pointer", padding: 1 + "%" + + "%" + 0 + "%" + 0 + "%" }} trigger={<h3 className="card-title collapse-title ">Experiences</h3>}>
-                                    <div className="collapsible-content">
-                                        <h6 className="card-title">LIA - Centiro</h6>
-                                        <p className="card-text boxText">My first experience in a real software company, 4 weeks during my education just to give us a taste of what's ahead</p>
-                                    </div>
-                                    <div className="collapsible-content">
-                                        <h6 className="card-title">LIA - Centiro</h6>
-                                        <p className="card-text boxText">My first experience in a real software company, 4 weeks during my education just to give us a taste of what's ahead</p>
-                                    </div>
-                                </Collapsible>
-                            </div>
-                            <div className="col-lg-6 col-sm-6 mb-8">
-                                <Collapsible triggerStyle={{ cursor: "pointer", padding: 1 + "%" + 0 + "%" + 0 + "%" + 0 + "%" }} trigger={<h3 className="card-title collapse-title">Education</h3>}>
-                                    <p className="card-text boxText">Relevant education...</p>
-                                </Collapsible>
-                            </div>
-                        </div> */}
-                    
+                    {/* -------- */}
                 </Fade>
             </div>
         )
