@@ -56,8 +56,7 @@ export default class About extends Component {
                                         <p>TypeScript</p>
                                         <div className="dropdown-text">
                                             <p>
-                                                JavaScript, and React especially, is where I let my creativity flow.
-                                                Creating a satisfying UX has never been easier for me.
+                                                React is alot of fun working with, mainly because it's so easy. This is what I turn to when I want to relax my mind a little.
                                                 <br/>
                                                 I have just started messing around with Angular and TypeScript, I have basic knowledge about them.
                                             </p>
